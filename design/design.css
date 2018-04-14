@@ -1,0 +1,16 @@
+
+#calculator{
+    margin-left: 25%;
+    margin-right:25%;
+    margin-top:30%;  
+    border-style: ridge;
+    border-radius:10px;
+    width: auto;
+    font-family: 'Cute Font', cursive;
+}
+#display{
+    border-style: ridge;
+    border-radius:5px; 
+    width:auto;
+    padding-bottom:15%; 
+}
