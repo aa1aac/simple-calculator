@@ -15,35 +15,41 @@
         <div class="container" id="calculator">
            <span class="header text-center"><h1>Electronic Calculator</h1></span>
            <br>
-            <div class="container" id="display"></div>
-            <br>
-            <div class="auto" id="buttons">
-              
-                        <button><h1> AC </h1></button>
-                        <button><h1> CE</h1></button>
-                        <button><h1> &divide;</h1></button>
-                        <button><h1> X</h1></button>
-                </div>
+            <div class="container" id="display">
+                    <h5><span class="output text-left">1+1</span></h5>
                     <br>
-                <div >
-                        <button ><h1>7</h1></button>   
-                        <button><h1>8</h1></button>
-                        <button><h1>9</h1></button>
-                        <button><h1>-</h1></button>
+                    <span class="input text-right">=2</span>
+            </div>
+            <br>
+            <div class="container" id="buttons">
+                <div class="row">
+                        <button class="AC btn-danger"><h2> AC </h2></button>
+                        <button class="CE btn-danger"><h2> CE</h2></button>
+                        <button class="calc"><h2> &divide;</h2></button>
+                        <button class="calc"><h2> X</h2></button>
+                </div>
+                      
+               
+                    <br>
+                <div class="row">
+                        <button ><h2>7</h2></button>   
+                        <button><h2>8</h2></button>
+                        <button><h2>9</h2></button>
+                        <button class="calc"><h2>-</h2></button>
                 </div>
                 <br>
-                <div >
-                        <button><h1>4</h1></button>
-                        <button><h1>5</h1></button> 
-                        <button><h1>6</h1></button> 
-                        <button><h1>+</h1></button> 
+                <div class="row">
+                        <button><h2>4</h2></button>
+                        <button><h2>5</h2></button> 
+                        <button><h2>6</h2></button> 
+                        <button class="calc"><h2>+</h2></button> 
                 </div>
                     <br>
-                    <div >
-                            <button><h1>1</h1></button>
-                            <button><h1>2</h1></button>
-                            <button><h1>3</h1></button>
-                            <button class="equals text-center"><h1>=</h1></button>
+                    <div class="row">
+                            <button><h2>1</h2></button>
+                            <button><h2>2</h2></button>
+                            <button><h2>3</h2></button>
+                            <button class="calc equals text-center"><h1>=</h1></button>
                     </div>
                     <br>
                     <div >
@@ -55,5 +61,8 @@
 
             </div>
         </div>
+        <script src="libs/jquery-3.3.1.min.js"></script>
+        <script src="libs/bootstrap/js/bootstrap.js"></script>
+        <script src="function/js.js"></script>
     </body>
 </html>
