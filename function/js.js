@@ -1,21 +1,11 @@
 $(document).ready(function(){
-// declaration of value
-  var value="";
-  // event listener for button
+  // declaration of variable for inputs
+  var inputs=[""];
 
-    $("button").click(function() {
+  // stores current input
+  var inputString;
 
-        var clickedButton = $(this).val();
-        $(".input").html=clickedButton;
-        if (isNaN(clickedButton)){
-            
-            var calculation=clickedButton;
-            console.log(calculation);
-        }
-        else{
-            number=clickedButton;
-            console.log(number);
-        }   
-    });
+  // stores thae value without "."
+  var operators1=[""];
   
 })
