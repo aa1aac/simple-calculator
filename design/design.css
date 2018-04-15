@@ -2,7 +2,7 @@
 #calculator{
     margin-left: 25%;
     margin-right:25%;
-    margin-top:1%;  
+    margin-top:1%;
     border-style: ridge;
     border-radius:10px;
     width: auto;
@@ -11,9 +11,9 @@
 }
 #display{
     border-style: ridge;
-    border-radius:5px; 
+    border-radius:5px;
     width:auto;
-    padding-bottom:5%; 
+    padding-bottom:5%;
     background-color: black;
     color:white;
 }
@@ -24,7 +24,7 @@ button{
     border-radius: 50px;
    width:20%;
    color: white;
-   background-color:#223322; 
+   background-color:#223322;
 }
 .equals{
     transform: scaleY(2.5);
@@ -32,16 +32,21 @@ button{
 }
 .zero {
     width: 45%;
-    
+
   }
 
   button:active {
     transform: translate(0px, 5px);
     -webkit-transform: translate(0px, 5px);
     box-shadow: 0px 1px 0px 0px;
+    outline: none;
   }
   button:hover {
     background-color: #6FC6FF;
+    outline: none;
+  }
+  button:focus{
+    outline: none;
   }
   .equals:active{
     transform: scaleY(2.5);
