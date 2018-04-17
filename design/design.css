@@ -13,34 +13,19 @@
     border-style: ridge;
     border-radius:5px;
     width:auto;
-    padding-bottom:5%;
     background-color: black;
     color:white;
-}
-button{
-    position: relative;
-    margin-bottom:2%;
-    margin-right: 4.1%;
-    border-radius: 50px;
-   width:20%;
-   color: white;
-   background-color:#223322;
-}
-.equals{
+    height:95px;}
+/*
+*/
+
+/*.equals{
     transform: scaleY(2.5);
     transform-origin: top;
-}
-.zero {
-    width: 45%;
+}*/
 
-  }
 
-  button:active {
-    transform: translate(0px, 5px);
-    -webkit-transform: translate(0px, 5px);
-    box-shadow: 0px 1px 0px 0px;
-    outline: none;
-  }
+ 
   button:hover {
     background-color: #6FC6FF;
     outline: none;
@@ -61,3 +46,26 @@ button{
 .calc{
     background-color: rgba(226, 147, 0, 0.979);
 }
+
+button{
+    position: relative;
+    margin-bottom:2%;
+    margin-right: 4.1%;
+    border-radius: 50px;
+   width:20%;
+   color: white;
+   background-color:#223322;
+}
+.equals{
+    transform: scaleY(2.5);
+    transform-origin: top;}
+.zero {
+    width: 45%;
+
+  }
+   button:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+    outline: none;
+  }
