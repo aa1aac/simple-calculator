@@ -19,9 +19,9 @@ $(document).ready(function(){
     else if(inputs.length===1 && operators1.includes(input)===false){
       inputs.push(input);
     }
-    else if(operators1.includes(inputs[inputs.length-1]===false)){
-      inputs.push(input);
-    }
+   
+    else if (operators1.includes(inputs[inputs.length - 1] === false)) {
+      inputs.push(input);}
     else if (nums.includes(Number(input))){
       inputs.push(input);
     }
@@ -36,7 +36,7 @@ $(document).ready(function(){
 
   function getTotal(){
     totalString=inputs.join("");
-    $(".output").html(eval(totalString));
+    $(".input").html("="+eval(totalString));
   }
   
 
@@ -46,6 +46,7 @@ $(document).ready(function(){
        console.log("clickedac");
       inputs=[""];
       update();
+      $(".output").html=" ";
     }
     else if(this.value==="CE"){
       console.log("ce");
